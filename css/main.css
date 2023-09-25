@@ -1,0 +1,92 @@
+.flex_box{
+    display: flex;
+    flex-direction:row
+}
+
+.box{
+
+    height: 350px;
+    background-color: black;
+    border: 2px solid;
+    border-color: whitesmoke;
+
+}
+
+.caja{
+    background-color: rgb(66, 94, 56);
+    color:rgb(16, 107, 8);
+    border: 2px solid;
+    border-color: antiquewhite;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+
+
+
+
+}
+
+.params_coment{
+    
+        float: right;
+    
+}
+
+.caja2{
+
+    background-color: black;
+    color:aliceblue;
+    border: 2px solid;
+    border-color: antiquewhite;
+    height: 350px;
+    width: 16.5%;
+
+}
+
+.comment_interface{
+    padding: 5px;
+    color: rgb(44, 25, 25);
+    border: 1.2px solid;
+    border-color: rgb(46, 37, 55);
+
+}
+
+
+.coment_child{
+    margin-left: 5%;
+    color: rgb(66, 4, 4);
+    border: 1.2px solid;
+    border-color: rgb(38, 9, 95);
+    padding: 5px;
+
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.comment_message{
+
+    width: 80%;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+
+
+.style_profile_comment{
+
+    margin-top: -5%;
+ 
+
+}
+
+@media only screen and (max-width: 600px) {
+  
+        .style_profile_comment{
+
+            margin-top: -13%;
+        }
+  }
