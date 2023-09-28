@@ -75,10 +75,40 @@ ul{
 }
 
 
+.img-card-og{
+    height: 100%;
+    width: 100px;
+
+}
+
+.og_info{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.CardMetaOg{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    border: 1.2px solid;
+    border-color: rgb(203, 203, 203);
+    padding: 5px;
+    color: black;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    
+
+
+
+  }
+
 
 .style_profile_comment{
 
-    margin-top: -5%;
+    margin-top: -2.5%;
  
 
 }
@@ -90,3 +120,4 @@ ul{
             margin-top: -13%;
         }
   }
+
